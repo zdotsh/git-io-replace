@@ -22,6 +22,6 @@ Effective Friday, April 29, 2022 all links on git.io will stop redirecting. [Sou
 
 Submit an issue on this repository:
 
-https://github.com/zdotsh/git-io-replace/issues/new
+https://z.sh/replace-request
 
 We will review manually, and we keep the right to reject any request.
