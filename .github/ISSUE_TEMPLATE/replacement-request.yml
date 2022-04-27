@@ -1,8 +1,7 @@
 name: Replacement Request
 description: Request a free git.io replacement
 title: "[Request]: "
-labels: 
-assignees:
+labels: enhancement
 body:
   - type: markdown
     attributes:
