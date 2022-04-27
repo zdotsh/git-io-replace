@@ -25,3 +25,7 @@ Submit an issue on this repository:
 https://z.sh/replace-request
 
 We will review manually, and we keep the right to reject any request.
+
+## Support
+
+Please use [Discord](https://z.sh/discord) for any questions or support.
