@@ -4,8 +4,24 @@ Effective Friday, April 29, 2022 all links on git.io will stop redirecting. [Sou
 
 ## What can we do?
 
-[z.sh](https://z.sh/) offers free replacement for your deprecated `git.io` URLs.
+[z.sh](https://z.sh/) offers a free replacement for your deprecated `git.io` URLs.
 
 ## Requirements
 
-TBD
+1. You must use the destination URL for a GitHub repository with Github domains (`github.com` and `githubusercontent.com`). For example, `https://github.com/zdotsh/git-io-replace` and `https://raw.githubusercontent.com/zdotsh/git-io-replace/main/README.md` are valid.
+
+2. Your deprecated URL must be using `git.io` domain. For example, `https://git.io/example` is valid.
+
+3. Your repository must be public and has 500 stars at least.
+
+4. Project document must be written in the English language by default.
+
+5. There are no trademark words in your URLs.
+
+## How to get a free replacement?
+
+Submit an issue on this repository:
+
+https://github.com/zdotsh/git-io-replace/issues/new
+
+We will review manually, and we keep the right to reject any request.
