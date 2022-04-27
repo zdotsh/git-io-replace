@@ -1,0 +1,40 @@
+name: Replacement Request
+description: Request a free git.io replacement
+title: "[Request]: "
+labels: 
+assignees:
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: old-url
+    attributes:
+      label: Old URL
+      description: Tell us the old git.io URL
+      placeholder: ex. git.io/example
+    validations:
+      required: true
+  - type: input
+    id: old-dest
+    attributes:
+      label: Destnation URL
+      description: Tell us the destnation URL
+      placeholder: ex. https://raw.githubusercontent.com/github/.github/master/profile/README.md
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to meet our requirements.
+      options:
+        - label: I confirm that I have read the [requirements](https://github.com/zdotsh/git-io-replace#requirements) and understand the consequences.
+          required: true
+        - label: I confirm that I know there's no SLA for this service.
+          required: true
+        - label: I checked to make sure that this request has not already been filed.
+          required: true
+        - label: I confirm that I am the owner of the GitHub repository that I am requesting a replacement for.
+          required: true
