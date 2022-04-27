@@ -12,7 +12,7 @@ body:
     attributes:
       label: Old URL
       description: Tell us the old git.io URL
-      placeholder: ex. git.io/example
+      placeholder: ex. https://cgit.io/example
     validations:
       required: true
   - type: input
@@ -20,7 +20,7 @@ body:
     attributes:
       label: Destnation URL
       description: Tell us the destnation URL
-      placeholder: ex. https://raw.githubusercontent.com/github/.github/master/profile/README.md
+      placeholder: ex. https://raw.githubusercontent.com/zdotsh/git-io-replace/main/README.md
     validations:
       required: true
   - type: checkboxes
